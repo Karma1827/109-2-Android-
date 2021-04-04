@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">108590002_HW5_03.2</string>
+    <string name="operand1">Type Operand 1</string>
+    <string name="operand2">Type Operand 2</string>
+    <string name="add">Add</string>
+    <string name="sub">Sub</string>
+    <string name="mul">Mul</string>
+    <string name="div">Div</string>
+    <string name="pow">Pow</string>
+
+</resources>
