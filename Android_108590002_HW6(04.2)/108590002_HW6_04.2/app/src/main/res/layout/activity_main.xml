@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="330dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="394dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <CheckBox
+            android:id="@+id/Chocolate_syrup"
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Chocolate_syrup"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/Sprinkles"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Sprinkles"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/Crushed_nuts"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Crushed_nuts"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/Cherries"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Cherries"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/Orio_cookie_crumbles"
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Orio_cookie_crumbles"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/show"
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/teal_200"
+            android:gravity="center"
+            android:text="@string/show"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:onClick="showToast"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
