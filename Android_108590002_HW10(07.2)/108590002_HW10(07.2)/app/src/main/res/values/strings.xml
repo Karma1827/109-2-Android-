@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">108590002_HW10_07.2</string>
+    <string name="instructions">Enter URL: </string>
+    <string name="button_text">GET PAGE SOURCE</string>
+    <string name="input_hint">(https://)www.google.com</string>
+    <string-array name="http_array">
+        <item name="http">http://</item>
+        <item name="https">https://</item>
+    </string-array>
+    <!-- User messages for in-process queries and error results. -->
+    <string name="loading">Loading…</string>
+    <string name="no_results">"No Results Found"</string>
+    <string name="no_search_term">Please enter a search term</string>
+    <string name="no_network">Please check your network connection and try again.</string>
+</resources>
