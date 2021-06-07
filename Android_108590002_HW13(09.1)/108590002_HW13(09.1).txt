@@ -1,0 +1,21 @@
+Question 1: 
+    In which lifecycle method do you save the app state to shared preferences?
+
+Ans: 
+    onPause()
+
+
+Question 2: 
+    In which lifecycle method do you restore the app state?
+
+Ans: 
+    onCreate()
+
+
+Question 3: 
+    Can you think of a case where it makes sense to have both shared preferences and instance state?
+
+Ans: 
+    用saveInstanceState保存上線狀態，因為下線了app就不會顯示上線狀態的訊息
+    用SharedPreferences保存上線活動，因為就算下線了，app都會保存著上線時執行過的活動
+
