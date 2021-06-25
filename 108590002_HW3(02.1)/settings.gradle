@@ -1,2 +1,0 @@
-include ':app'
-rootProject.name = "HW3_02.1"
